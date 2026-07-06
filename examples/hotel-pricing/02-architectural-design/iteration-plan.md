@@ -1,4 +1,4 @@
-# Hotel Pricing System - ADD Iteration Plan
+# Hotel Pricing System - Architectural Design
 
 | Iteration | Goal | Drivers | Elements to refine |
 | --- | --- | --- | --- |

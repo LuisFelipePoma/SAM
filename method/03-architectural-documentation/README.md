@@ -4,10 +4,12 @@ Objetivo: dejar evidencia suficiente para construir, revisar y mantener la arqui
 
 ## Entrada
 
-- Drivers aprobados.
-- Decisiones ADD.
+- `input.md` de la fase, derivado de la salida aprobada de Architectural Design.
+- Decisiones aprobadas.
+- Elementos instanciados.
 - Interfaces, eventos y responsabilidades.
-- Backlog o plan Scrum.
+- Drivers satisfechos o pendientes.
+- Stories/epicas iniciales.
 
 ## Proceso
 
@@ -24,6 +26,10 @@ Objetivo: dejar evidencia suficiente para construir, revisar y mantener la arqui
 - Interfaces y eventos relevantes.
 - Matriz de trazabilidad.
 - Handoff a Scrum.
+
+## Approval Gate
+
+Cada story critica debe enlazar a un driver o decision. Las decisiones deben tener vista/diagrama y check asociado.
 
 ## Rol Del Agente IA
 

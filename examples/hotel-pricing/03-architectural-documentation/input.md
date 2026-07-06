@@ -1,0 +1,69 @@
+# Phase 3 Input - Architectural Documentation
+
+## Source
+
+- `examples/hotel-pricing/02-architectural-design/iteration-plan.md`
+- `examples/hotel-pricing/02-architectural-design/design-decisions.md`
+
+## Approved Decisions
+
+| ID | Decision |
+| --- | --- |
+| ADR-001 | Start with a modular monolith: Angular UI, Java API and explicit domain modules. |
+| ADR-002 | Publish price changes through a transactional outbox and message broker. |
+| ADR-003 | Separate command and query paths with a read-optimized query store/cache. |
+| ADR-004 | Use managed identity with API-level authorization by role and hotel. |
+| ADR-005 | Externalize environment config and mock external systems in integration. |
+| ADR-006 | Emit metrics for command latency, outbox lag, publication failures and query latency. |
+
+## Elements To Document
+
+- Angular Web App.
+- HPS Java API.
+- Pricing DB.
+- Price Query Store / Cache.
+- Message Broker.
+- Monitoring / Metrics.
+- Identity, CMS, PMS, CAS and other external systems.
+
+## Interfaces And Events
+
+- `POST /price-changes`
+- `GET /prices`
+- hotel/rate admin endpoints.
+- `PriceChanged` event.
+
+## Driver Status
+
+| Driver | Status entering documentation |
+| --- | --- |
+| QA-1 | Partially satisfied; needs performance test. |
+| QA-2 | Satisfied for design; needs retry/dead-letter detail. |
+| QA-3 | Partially satisfied; needs deployment redundancy detail. |
+| QA-4 | Partially satisfied; needs load test. |
+| QA-5 | Satisfied for design; needs permission matrix. |
+
+## Initial Stories
+
+- Price change flow.
+- Query prices API.
+- Managed login.
+- Publication metrics.
+- Environment config.
+
+## Output Expected
+
+- Architecture document.
+- C4 / views needed.
+- ADR table.
+- Traceability matrix.
+- Scrum handoff.
+- Governance checks.
+
+## Approval Gate
+
+Every critical story links to a driver or decision, and every decision has a view/diagram and architecture check.
+
+## Agent Role
+
+Keep documentation consistent, generate diagrams, detect missing traceability and prepare Scrum handoff.

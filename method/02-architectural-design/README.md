@@ -4,10 +4,11 @@ Objetivo: disenar la arquitectura con ADD a partir de drivers aprobados.
 
 ## Entrada
 
+- `input.md` de la fase, derivado de la salida aprobada de Architectural Requirements.
 - Lista priorizada de drivers.
 - Escenarios de calidad medibles.
-- Constraints y concerns.
-- Catalogo disponible de patrones, tecnologias y arquitecturas.
+- Constraints, concerns, riesgos y prioridades.
+- Catalogo permitido de patrones, tecnologias y arquitecturas.
 
 ## Proceso
 
@@ -17,6 +18,17 @@ Objetivo: disenar la arquitectura con ADD a partir de drivers aprobados.
 4. Instanciar elementos, responsabilidades, interfaces y colaboraciones.
 5. Registrar decisiones y tradeoffs.
 6. Analizar si los drivers quedaron satisfechos, parcialmente satisfechos o pendientes.
+
+## Salida
+
+- Iteration plan ADD.
+- Conceptos seleccionados.
+- Decisiones arquitectonicas.
+- ADD analysis.
+
+## Approval Gate
+
+El arquitecto aprueba decisiones, alternativas descartadas y drivers cubiertos antes de pasar a Architectural Documentation.
 
 ## Formato De Escenario
 

@@ -4,10 +4,12 @@ Objetivo: convertir el problema del cliente en drivers arquitectonicos priorizad
 
 ## Entrada
 
-- Requerimientos funcionales.
-- Consideraciones del cliente.
-- Constraints tecnicos, legales, economicos y organizacionales.
-- Contexto, objetivo, stakeholders y sistemas externos.
+- `input.md` de la fase, derivado de `project-brief.md` y preparado como briefing minimo por el arquitecto.
+- Problema de negocio, objetivo, alcance/MVP y stakeholders.
+- Funcionalidades principales, atributos de calidad esperados y restricciones.
+- Sistemas externos, contexto actual y prioridades del cliente.
+
+`architecture-drivers.md` no es input manual. Es la salida que el agente genera desde `project-brief.md` + `input.md`, y que el arquitecto revisa/aprueba.
 
 ## Proceso
 
@@ -15,17 +17,19 @@ Objetivo: convertir el problema del cliente en drivers arquitectonicos priorizad
 2. Categorizar atributos de calidad usando ISO/SEI como vocabulario base.
 3. Convertir atributos importantes en escenarios medibles.
 4. Priorizar con QAW-lite / utility tree y discutir tradeoffs.
-5. Generar la lista priorizada de drivers.
+5. Generar `architecture-drivers.md` con ASR, escenarios, utility tree y drivers priorizados.
 
 ## Salida
 
 | Artefacto | Contenido |
 | --- | --- |
-| ASR list | Requisitos arquitectonicamente significativos. |
-| Quality scenarios | Escenarios medibles de atributos de calidad. |
-| Utility tree | Priorizacion por importancia, dificultad y riesgo. |
-| Driver list | Lista final aprobada por el arquitecto. |
+| `architecture-drivers.md` | ASR, escenarios medibles, utility tree y lista de drivers. |
+| Approved driver list | Lista final revisada y aprobada por el arquitecto. |
+
+## Approval Gate
+
+El arquitecto no redacta todo el documento manualmente. Aprueba/corrige drivers primarios, supporting drivers, metricas, prioridades y tradeoffs antes de pasar a Architectural Design.
 
 ## Rol Del Agente IA
 
-El agente resume el problema, detecta ambiguedades, clasifica requisitos, propone escenarios medibles y prepara una priorizacion inicial. El arquitecto aprueba la lista final.
+El agente hace el trabajo pesado de analisis y redaccion: resume el problema, detecta ambiguedades, clasifica ASR, propone escenarios medibles, prioriza y genera `architecture-drivers.md`. El arquitecto conserva la decision final.

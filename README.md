@@ -10,6 +10,8 @@ El metodo sigue las 3 fases del diagrama:
 
 La entrada completa del metodo esta en [method/README.md](method/README.md).
 
+Todo proyecto empieza con un `project-brief.md`; usa [method/project-brief-template.md](method/project-brief-template.md).
+
 ## Rol Del Agente IA
 
 El agente es copiloto aprobado: prepara artefactos, preguntas, alternativas, diagramas, ADRs y backlog inicial. El arquitecto decide prioridades, acepta tradeoffs y aprueba decisiones.
@@ -19,10 +21,12 @@ El agente es copiloto aprobado: prepara artefactos, preguntas, alternativas, dia
 | Ruta | Uso |
 | --- | --- |
 | `method/` | Framework en 3 fases. |
+| `method/project-brief-template.md` | Input inicial que entrega cliente/equipo. |
 | `method/01-architectural-requirements/` | Atributos de calidad, ASR, QAW-lite, utility tree y lista priorizada. |
 | `method/02-architectural-design/` | ADD y seleccion de patrones, tacticas, tecnologias y arquitecturas. |
 | `method/03-architectural-documentation/` | C4, BD, 4+1, clases, ADRs, interfaces, eventos y trazabilidad. |
 | `examples/hotel-pricing/` | Ejemplo AD&D Hotels separado del framework. |
+| `examples/clinic-appointments/` | Segundo ejemplo para validar el metodo con otro dominio. |
 
 ## Criterio De Aceptacion
 
