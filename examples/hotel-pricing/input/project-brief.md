@@ -1,14 +1,14 @@
 # Hotel Pricing System - Project Brief
 
-## 1. Problema De Negocio
+## 1. Business Problem
 
 AD&D Hotels needs to replace a legacy pricing system that has reliability, performance, availability and maintainability issues. These issues have caused financial losses and make modernization harder.
 
-## 2. Objetivo Del Sistema
+## 2. System Goal
 
 Create a new Hotel Pricing System that lets authorized users manage hotel prices, calculate derived rates, publish prices to external systems and serve price queries reliably.
 
-## 3. Alcance Inicial / MVP
+## 3. Initial Scope / MVP
 
 Included:
 
@@ -35,7 +35,7 @@ Out of initial scope:
 | External systems | Consume current prices. |
 | Internal stakeholders | See an MVP in 2 months and release in 6 months. |
 
-## 5. Funcionalidades Principales
+## 5. Main Features
 
 - HPS-1: Log In.
 - HPS-2: Change Prices.
@@ -44,7 +44,7 @@ Out of initial scope:
 - HPS-5: Manage Rates.
 - HPS-6: Manage Users.
 
-## 6. Atributos De Calidad Esperados
+## 6. Expected Quality Attributes
 
 - Performance for price publication.
 - Reliability for accepted price changes and CMS delivery.
@@ -56,7 +56,7 @@ Out of initial scope:
 - Monitorability for publication operations.
 - Testability without real external systems.
 
-## 7. Restricciones
+## 7. Constraints
 
 - Browser-based UI across common platforms/devices.
 - Managed cloud identity service and cloud hosting.
@@ -66,18 +66,18 @@ Out of initial scope:
 - Cloud-native approach preferred.
 - Team knowledge favors Java and Angular.
 
-## 8. Contexto Actual
+## 8. Current Context
 
 The company has multiple systems around hotel operations and commercial analysis. Existing integrations use REST/SOAP request-response endpoints and shared database integration anti-patterns. Enterprise architecture principles now require a more decoupled model.
 
-## 9. Ambientes Y Operacion
+## 9. Environments And Operations
 
 - Development: local developer machines.
 - Integration: cloud environment with mocks for unavailable systems.
 - Staging: cloud environment connected to test versions of external systems.
 - Production: real operation.
 
-## 10. Prioridades Del Cliente
+## 10. Customer Priorities
 
 Highest priority:
 

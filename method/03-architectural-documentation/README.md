@@ -1,38 +1,38 @@
 # 03 - Architectural Documentation
 
-Objetivo: dejar evidencia suficiente para construir, revisar y mantener la arquitectura.
+Goal: leave enough evidence to build, review, and maintain the architecture.
 
-## Entrada
+## Input
 
-- `input.md` de la fase, derivado de la salida aprobada de Architectural Design.
-- Decisiones aprobadas.
-- Elementos instanciados.
-- Interfaces, eventos y responsabilidades.
-- Drivers satisfechos o pendientes.
-- Stories/epicas iniciales.
+- Phase `input.md`, derived from the approved Architectural Design output.
+- Approved decisions.
+- Instantiated elements.
+- Interfaces, events, and responsibilities.
+- Satisfied or pending drivers.
+- Initial stories/epics.
 
-## Proceso
+## Process
 
-1. Documentar vistas C4 minimas: contexto, contenedores y componentes cuando aplique.
-2. Agregar vistas 4+1, BD o diagrama de clases solo cuando respondan una pregunta real.
-3. Registrar ADRs o tabla de decisiones con alternativas y consecuencias.
-4. Enlazar requisito, escenario, driver, decision, vista, story y check.
-5. Bajar decisiones a epicas/stories y definir checks de gobernanza.
+1. Document minimum C4 views: context, containers, and components when applicable.
+2. Add 4+1, database, or class diagram views only when they answer a real question.
+3. Record ADRs or a decision table with alternatives and consequences.
+4. Link requirement, scenario, driver, decision, view, story, and check.
+5. Translate decisions into epics/stories and define governance checks.
 
-## Salida
+## Output
 
-- Documento de arquitectura vivo.
-- Decisiones arquitectonicas.
-- Interfaces y eventos relevantes.
-- Matriz de trazabilidad.
+- Living architecture document.
+- Architectural decisions.
+- Relevant interfaces and events.
+- Traceability matrix.
 - Handoff a Scrum.
 
 ## Approval Gate
 
-Cada story critica debe enlazar a un driver o decision. Las decisiones deben tener vista/diagrama y check asociado.
+Each critical story must link to a driver or decision. Decisions must have an associated view/diagram and check.
 
-La salida aprobada de esta fase alimenta Architectural Implementation.
+The approved output from this phase feeds Architectural Implementation.
 
-## Rol Del Agente IA
+## AI Agent Role
 
-El agente mantiene consistencia entre documentos, genera diagramas, detecta decisiones sin trazabilidad y revisa deriva arquitectura-codigo. El arquitecto valida la version final.
+The agent keeps documents consistent, generates diagrams, detects decisions without traceability, and reviews architecture-code drift. The architect validates the final version.

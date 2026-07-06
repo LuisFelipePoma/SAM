@@ -1,21 +1,21 @@
 # Architecture Method
 
-Metodo practico para pasar de problema de cliente a arquitectura implementable sin perder control de informacion, decisiones y trazabilidad.
+Practical method to move from a client problem to implementable architecture without losing control of information, decisions, and traceability.
 
-## Input Inicial
+## Initial Input
 
-Todo proyecto inicia con un `project-brief.md`. Ese archivo lo entrega cliente/equipo y no debe contener diseno tecnico final.
+Every project starts with a `project-brief.md`. This file is delivered by the client/team and must not contain final technical design.
 
-Usa [project-brief-template.md](project-brief-template.md) como formato base.
+Use [project-brief-template.md](project-brief-template.md) as the base format.
 
-## Flujo Principal
+## Main Flow
 
-1. [Architectural Requirements](01-architectural-requirements/README.md): categorizar atributos de calidad, priorizar tradeoffs y obtener una lista priorizada de drivers.
-2. [Architectural Design](02-architectural-design/README.md): ejecutar ADD con drivers aprobados y seleccionar patrones, tacticas, tecnologias y arquitecturas.
-3. [Architectural Documentation](03-architectural-documentation/README.md): documentar vistas, decisiones, interfaces, eventos, trazabilidad y handoff a Scrum.
-4. [Architectural Implementation](04-architectural-implementation/README.md): convertir arquitectura aprobada en slices implementables, stack/librerias, tests y design system.
+1. [Architectural Requirements](01-architectural-requirements/README.md): categorize quality attributes, prioritize tradeoffs, and obtain a prioritized driver list.
+2. [Architectural Design](02-architectural-design/README.md): run ADD with approved drivers and select patterns, tactics, technologies, and architectures.
+3. [Architectural Documentation](03-architectural-documentation/README.md): document views, decisions, interfaces, events, traceability, and Scrum handoff.
+4. [Architectural Implementation](04-architectural-implementation/README.md): convert approved architecture into implementable slices, stack/libraries, tests, and design system.
 
-## Cadena De Inputs
+## Input Chain
 
 ```text
 project-brief.md
@@ -25,16 +25,16 @@ project-brief.md
   -> 04-architectural-implementation/input.md
 ```
 
-## Regla Del Metodo
+## Method Rule
 
-El agente no decide arquitectura. El agente prepara informacion, alternativas y artefactos; el arquitecto aprueba drivers, tradeoffs y decisiones.
+The agent does not decide architecture. The agent prepares information, alternatives, and artifacts; the architect approves drivers, tradeoffs, and decisions.
 
-## Salida Minima
+## Minimum Output
 
-- Drivers priorizados.
-- Plan de iteraciones ADD.
-- 3 a 7 decisiones arquitectonicas iniciales.
-- Vistas C4 basicas y diagramas necesarios.
-- Backlog inicial con epicas/stories ligadas a drivers o decisiones.
-- Implementation plan con slices, criterios, tests y constraints.
-- Design system si el proyecto tiene frontend.
+- Prioritized drivers.
+- ADD iteration plan.
+- 3 to 7 initial architectural decisions.
+- Basic C4 views and necessary diagrams.
+- Initial backlog with epics/stories linked to drivers or decisions.
+- Implementation plan with slices, criteria, tests, and constraints.
+- Design system when the project has a frontend.

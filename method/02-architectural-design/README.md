@@ -1,46 +1,46 @@
 # 02 - Architectural Design
 
-Objetivo: disenar la arquitectura con ADD a partir de drivers aprobados.
+Goal: design the architecture with ADD from approved drivers.
 
-## Entrada
+## Input
 
-- `input.md` de la fase, derivado de la salida aprobada de Architectural Requirements.
-- Lista priorizada de drivers.
-- Escenarios de calidad medibles.
-- Constraints, concerns, riesgos y prioridades.
-- Catalogo permitido de patrones, tecnologias y arquitecturas.
+- Phase `input.md`, derived from the approved Architectural Requirements output.
+- Prioritized driver list.
+- Measurable quality scenarios.
+- Constraints, concerns, risks, and priorities.
+- Allowed catalog of patterns, technologies, and architectures.
 
-## Proceso
+## Process
 
-1. Definir la meta de la iteracion.
-2. Elegir elementos a refinar.
-3. Seleccionar conceptos de diseno: patrones, tacticas, tecnologias o arquitecturas.
-4. Instanciar elementos, responsabilidades, interfaces y colaboraciones.
-5. Registrar decisiones y tradeoffs.
-6. Analizar si los drivers quedaron satisfechos, parcialmente satisfechos o pendientes.
+1. Define the iteration goal.
+2. Choose elements to refine.
+3. Select design concepts: patterns, tactics, technologies, or architectures.
+4. Instantiate elements, responsibilities, interfaces, and collaborations.
+5. Record decisions and tradeoffs.
+6. Analyze whether drivers are satisfied, partially satisfied, or pending.
 
-## Salida
+## Output
 
 - Iteration plan ADD.
-- Conceptos seleccionados.
-- Decisiones arquitectonicas.
+- Selected concepts.
+- Architectural decisions.
 - ADD analysis.
 
 ## Approval Gate
 
-El arquitecto aprueba decisiones, alternativas descartadas y drivers cubiertos antes de pasar a Architectural Documentation.
+The architect approves decisions, discarded alternatives, and covered drivers before moving to Architectural Documentation.
 
-## Formato De Escenario
+## Scenario Format
 
-| Campo | Pregunta |
+| Field | Question |
 | --- | --- |
-| Fuente de estimulo | Quien o que dispara el evento? |
-| Estimulo | Que ocurre? |
-| Artefacto | Que parte del sistema recibe el estimulo? |
-| Entorno | Bajo que condiciones ocurre? |
-| Respuesta | Que debe hacer el sistema? |
-| Medida | Como se valida el resultado? |
+| Source of stimulus | Who or what triggers the event? |
+| Stimulus | What happens? |
+| Artifact | Which part of the system receives the stimulus? |
+| Environment | Under what conditions does it happen? |
+| Response | What must the system do? |
+| Measure | How is the result validated? |
 
-## Rol Del Agente IA
+## AI Agent Role
 
-El agente ejecuta ADD paso a paso, propone alternativas acotadas y prepara tablas de tradeoffs. El arquitecto aprueba cada paso antes de avanzar.
+The agent runs ADD step by step, proposes bounded alternatives, and prepares tradeoff tables. The architect approves each step before moving forward.

@@ -1,41 +1,41 @@
 # Project Brief Template
 
-## 1. Problema De Negocio
+## 1. Business Problem
 
-Que duele, por que importa y que pasa si no se resuelve.
+What hurts, why it matters, and what happens if it is not solved.
 
-## 2. Objetivo Del Sistema
+## 2. System Goal
 
-Que debe lograr el software en terminos de negocio.
+What the software must achieve in business terms.
 
-## 3. Alcance Inicial / MVP
+## 3. Initial Scope / MVP
 
-Que entra y que queda fuera de la primera version.
+What is included and excluded from the first version.
 
 ## 4. Stakeholders
 
-Usuarios, areas internas, operadores, sistemas externos y decisores.
+Users, internal areas, operators, external systems, and decision makers.
 
-## 5. Funcionalidades Principales
+## 5. Main Features
 
-Historias o casos de uso de alto nivel.
+High-level stories or use cases.
 
-## 6. Atributos De Calidad Esperados
+## 6. Expected Quality Attributes
 
-Performance, seguridad, disponibilidad, mantenibilidad, escalabilidad, observabilidad, testabilidad, etc.
+Performance, security, availability, maintainability, scalability, observability, testability, etc.
 
-## 7. Restricciones
+## 7. Constraints
 
-Tecnologias obligatorias, cloud/on-premise, presupuesto, fechas, compliance, equipo y proveedores.
+Required technologies, cloud/on-premise, budget, dates, compliance, team, and vendors.
 
-## 8. Contexto Actual
+## 8. Current Context
 
-Sistemas existentes, integraciones, dolores tecnicos, datos compartidos y riesgos conocidos.
+Existing systems, integrations, technical pain points, shared data, and known risks.
 
-## 9. Ambientes Y Operacion
+## 9. Environments And Operations
 
-Dev, QA/integration, staging, produccion, despliegue, monitoreo y soporte.
+Dev, QA/integration, staging, production, deployment, monitoring, and support.
 
-## 10. Prioridades Del Cliente
+## 10. Customer Priorities
 
-Que es critico, que puede esperar y que tradeoffs acepta.
+What is critical, what can wait, and what tradeoffs are acceptable.

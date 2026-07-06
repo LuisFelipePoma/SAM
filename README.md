@@ -1,39 +1,44 @@
 # Software Architecture Method
 
-Framework ligero para estandarizar arquitectura de software en proyectos Web/API empresariales con tiempos ajustados.
+Lightweight framework to standardize architecture work in software projects with tight timelines.
 
-El metodo sigue 4 fases: requisitos, diseno, documentacion e implementacion arquitectonica para preparar el trabajo del agente de codigo/equipo.
+The method follows 4 phases: requirements, design, documentation, and architectural implementation to prepare work for a code agent or delivery team.
 
 1. [Architectural Requirements](method/01-architectural-requirements/README.md)
 2. [Architectural Design](method/02-architectural-design/README.md)
 3. [Architectural Documentation](method/03-architectural-documentation/README.md)
 4. [Architectural Implementation](method/04-architectural-implementation/README.md)
 
-La entrada completa del metodo esta en [method/README.md](method/README.md).
+The full method entry point is [method/README.md](method/README.md).
 
-Todo proyecto empieza con un `project-brief.md`; usa [method/project-brief-template.md](method/project-brief-template.md).
+Every project starts with a `project-brief.md`; use [method/project-brief-template.md](method/project-brief-template.md).
 
-## Rol Del Agente IA
+## AI Agent Role
 
-El agente es copiloto aprobado: prepara artefactos, preguntas, alternativas, diagramas, ADRs y backlog inicial. El arquitecto decide prioridades, acepta tradeoffs y aprueba decisiones.
+The agent is an approved copilot: it prepares artifacts, questions, alternatives, diagrams, ADRs, and the initial backlog. The architect sets priorities, accepts tradeoffs, and approves decisions.
 
-## Estructura
+## Structure
 
-| Ruta | Uso |
+| Path | Use |
 | --- | --- |
-| `method/` | Framework en 4 fases. |
-| `method/project-brief-template.md` | Input inicial que entrega cliente/equipo. |
-| `method/01-architectural-requirements/` | Atributos de calidad, ASR, QAW-lite, utility tree y lista priorizada. |
-| `method/02-architectural-design/` | ADD y seleccion de patrones, tacticas, tecnologias y arquitecturas. |
-| `method/03-architectural-documentation/` | C4, BD, 4+1, clases, ADRs, interfaces, eventos y trazabilidad. |
-| `method/04-architectural-implementation/` | Slices de implementacion, stack, librerias, tests y design system. |
-| `examples/hotel-pricing/` | Ejemplo AD&D Hotels separado del framework. |
-| `examples/clinic-appointments/` | Segundo ejemplo para validar el metodo con otro dominio. |
+| `method/` | 4-phase framework. |
+| `method/project-brief-template.md` | Initial input delivered by the client/team. |
+| `method/01-architectural-requirements/` | Quality attributes, ASRs, QAW-lite, utility tree, and prioritized list. |
+| `method/02-architectural-design/` | ADD and selection of patterns, tactics, technologies, and architectures. |
+| `method/03-architectural-documentation/` | C4, database view, 4+1, class diagrams, ADRs, interfaces, events, and traceability. |
+| `method/04-architectural-implementation/` | Implementation slices, stack, libraries, tests, and design system. |
 
-## Criterio De Aceptacion
+## Examples
 
-En 1 o 2 sesiones el metodo debe producir drivers priorizados, 3 a 7 decisiones arquitectonicas, vistas C4 basicas, backlog inicial y riesgos. Cada story critica debe enlazar a un driver o decision.
+| Path | Use |
+| --- | --- |
+| `examples/hotel-pricing/` | AD&D Hotels example. |
+| `examples/clinic-appointments/` | Clinic appointment scheduling example to validate another domain. |
 
-## Fuentes Base
+## Acceptance Criteria
 
-ADD/SEI, QAW-lite, Views and Beyond, C4, ADRs, patrones de arquitectura empresarial y arquitectura evolutiva.
+In 1 or 2 sessions, the method should produce prioritized drivers, 3 to 7 architectural decisions, basic C4 views, an initial backlog, and risks. Each critical story must link to a driver or decision.
+
+## Base Sources
+
+ADD/SEI, QAW-lite, Views and Beyond, C4, ADRs, enterprise architecture patterns, and evolutionary architecture.

@@ -1,12 +1,12 @@
 # Hotel Pricing System Example
 
-Ejemplo ejecutado del metodo en las mismas 4 fases del framework.
+Example executed with the same 4 phases of the framework.
 
-## Input Inicial
+## Initial Input
 
 - [Project brief](input/project-brief.md)
 
-## Fases
+## Phases
 
 1. Architectural Requirements: [input](01-architectural-requirements/input.md) and [output](01-architectural-requirements/architecture-drivers.md)
 2. Architectural Design: [input](02-architectural-design/input.md), [iteration plan](02-architectural-design/iteration-plan.md) and [design decisions](02-architectural-design/design-decisions.md)

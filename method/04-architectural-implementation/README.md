@@ -1,33 +1,33 @@
 # 04 - Architectural Implementation
 
-Objetivo: convertir arquitectura aprobada en paquetes listos para agente de codigo o equipo Scrum.
+Goal: convert approved architecture into packages ready for a code agent or Scrum team.
 
-## Entrada
+## Input
 
-- `input.md` de la fase, derivado de Architectural Documentation.
-- `architecture-document.md`, decisiones, trazabilidad y Scrum handoff.
-- Interfaces, eventos, governance checks y driver status.
-- Stack, librerias permitidas/prohibidas y restricciones UI si aplica.
+- Phase `input.md`, derived from Architectural Documentation.
+- `architecture-document.md`, decisions, traceability, and Scrum handoff.
+- Interfaces, events, governance checks, and driver status.
+- Stack, allowed/prohibited libraries, and UI constraints when applicable.
 
-## Proceso
+## Process
 
-1. Confirmar stack, librerias y constraints que no se pueden romper.
-2. Dividir la implementacion en slices pequenos y testeables.
-3. Asociar cada slice con driver, ADR, story/caso de uso y check arquitectonico.
-4. Definir criterios de aceptacion y tests minimos por slice.
-5. Crear `design-system.md` si el proyecto tiene frontend.
+1. Confirm stack, libraries, and constraints that cannot be broken.
+2. Divide implementation into small, testable slices.
+3. Associate each slice with driver, ADR, story/use case, and architectural check.
+4. Define acceptance criteria and minimum tests per slice.
+5. Create `design-system.md` when the project has a frontend.
 
-## Salida
+## Output
 
 - `implementation-plan.md`.
-- `design-system.md` cuando hay frontend.
-- Slices de implementacion ordenados.
-- Criterios de aceptacion, tests minimos y constraints por slice.
+- `design-system.md` when there is a frontend.
+- Ordered implementation slices.
+- Acceptance criteria, minimum tests, and constraints per slice.
 
 ## Approval Gate
 
-El arquitecto o tech lead aprueba que cada slice respete drivers/ADRs y tenga tests minimos antes de pasarlo al agente de codigo.
+The architect or tech lead approves that each slice respects drivers/ADRs and has minimum tests before passing it to the code agent.
 
-## Rol Del Agente IA
+## AI Agent Role
 
-El agente prepara el plan de implementacion, design system y prompts por slice. No escribe codigo en esta fase.
+The agent prepares the implementation plan, design system, and prompts per slice. It does not write code in this phase.

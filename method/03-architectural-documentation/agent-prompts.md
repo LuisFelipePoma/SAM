@@ -3,17 +3,17 @@
 ## Domain Model
 
 ```text
-Crea o actualiza el modelo de dominio en el documento de arquitectura. Usa Mermaid para el diagrama de clases y una tabla breve de responsabilidades por entidad. No incluyas detalles de framework.
+Create or update the domain model in the architecture document. Use Mermaid for the class diagram and a short table of responsibilities per entity. Do not include framework details.
 ```
 
 ## Architecture Document
 
 ```text
-Actualiza el documento de arquitectura con decisiones, vistas afectadas, interfaces, eventos y trazabilidad. Mantente en las secciones de method/03-architectural-documentation/template.md.
+Update the architecture document with decisions, affected views, interfaces, events, and traceability. Stay within the sections from method/03-architectural-documentation/template.md.
 ```
 
 ## Scrum And Governance
 
 ```text
-Transforma las decisiones aprobadas en epicas/stories, criterios de aceptacion y checks de arquitectura. Verifica que cada story critica enlace a un driver o decision.
+Transform approved decisions into epics/stories, acceptance criteria, and architecture checks. Verify that each critical story links to a driver or decision.
 ```

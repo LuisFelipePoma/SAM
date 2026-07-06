@@ -1,14 +1,14 @@
 # Clinic Appointments - Project Brief
 
-## 1. Problema De Negocio
+## 1. Business Problem
 
 A private clinic chain manages patient appointments through phone calls, spreadsheets and isolated calendars. This causes double-bookings, missed appointments, slow rescheduling and poor visibility for clinic managers.
 
-## 2. Objetivo Del Sistema
+## 2. System Goal
 
 Create a web system for patients, receptionists and doctors to schedule, reschedule, cancel and monitor medical appointments across clinics.
 
-## 3. Alcance Inicial / MVP
+## 3. Initial Scope / MVP
 
 Included:
 
@@ -36,7 +36,7 @@ Out of initial scope:
 | Clinic managers | Monitor appointment volume and no-shows. |
 | IT operations | Deploy and monitor the system with low support effort. |
 
-## 5. Funcionalidades Principales
+## 5. Main Features
 
 - CA-1: Register and log in.
 - CA-2: Search availability.
@@ -46,7 +46,7 @@ Out of initial scope:
 - CA-6: Doctor views daily schedule.
 - CA-7: Send notification request.
 
-## 6. Atributos De Calidad Esperados
+## 6. Expected Quality Attributes
 
 - Consistency: avoid double-booking.
 - Availability: booking must remain available during business hours.
@@ -55,7 +55,7 @@ Out of initial scope:
 - Modifiability: support future payment and telemedicine modules.
 - Monitorability: track booking failures and notification failures.
 
-## 7. Restricciones
+## 7. Constraints
 
 - Web app for desktop and mobile browsers.
 - MVP in 10 weeks.
@@ -64,18 +64,18 @@ Out of initial scope:
 - Cloud deployment is preferred.
 - Small team: 2 backend, 1 frontend, 1 QA.
 
-## 8. Contexto Actual
+## 8. Current Context
 
 Each clinic has different scheduling practices. Doctor availability changes frequently. Managers need consolidated appointment visibility but do not need medical record data in MVP.
 
-## 9. Ambientes Y Operacion
+## 9. Environments And Operations
 
 - Development: local.
 - QA: cloud test environment.
 - Production: cloud production environment.
 - Basic monitoring and error alerts are required.
 
-## 10. Prioridades Del Cliente
+## 10. Customer Priorities
 
 Highest priority:
 
