@@ -1,6 +1,6 @@
 # Clinic Appointments Example
 
-Example executed with the same 4 phases of the framework.
+Example executed with the same 4 phases of SAM.
 
 ## Initial Input
 

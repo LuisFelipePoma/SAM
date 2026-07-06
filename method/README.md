@@ -1,4 +1,4 @@
-# Architecture Method
+# SAM - Software Architecture Method
 
 Practical method to move from a client problem to implementable architecture without losing control of information, decisions, and traceability.
 
@@ -25,7 +25,7 @@ project-brief.md
   -> 04-architectural-implementation/input.md
 ```
 
-## Method Rule
+## SAM Rule
 
 The agent does not decide architecture. The agent prepares information, alternatives, and artifacts; the architect approves drivers, tradeoffs, and decisions.
 

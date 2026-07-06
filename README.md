@@ -1,15 +1,15 @@
-# Software Architecture Method
+# SAM - Software Architecture Method
 
-Lightweight framework to standardize architecture work in software projects with tight timelines.
+Lightweight method to standardize architecture work in software projects with tight timelines.
 
-The method follows 4 phases: requirements, design, documentation, and architectural implementation to prepare work for a code agent or delivery team.
+SAM follows 4 phases: requirements, design, documentation, and architectural implementation to prepare work for a code agent or delivery team.
 
 1. [Architectural Requirements](method/01-architectural-requirements/README.md)
 2. [Architectural Design](method/02-architectural-design/README.md)
 3. [Architectural Documentation](method/03-architectural-documentation/README.md)
 4. [Architectural Implementation](method/04-architectural-implementation/README.md)
 
-The full method entry point is [method/README.md](method/README.md).
+The full SAM entry point is [method/README.md](method/README.md).
 
 Every project starts with a `project-brief.md`; use [method/project-brief-template.md](method/project-brief-template.md).
 
@@ -21,7 +21,7 @@ The agent is an approved copilot: it prepares artifacts, questions, alternatives
 
 | Path | Use |
 | --- | --- |
-| `method/` | 4-phase framework. |
+| `method/` | 4-phase SAM method. |
 | `method/project-brief-template.md` | Initial input delivered by the client/team. |
 | `method/01-architectural-requirements/` | Quality attributes, ASRs, QAW-lite, utility tree, and prioritized list. |
 | `method/02-architectural-design/` | ADD and selection of patterns, tactics, technologies, and architectures. |
@@ -37,7 +37,7 @@ The agent is an approved copilot: it prepares artifacts, questions, alternatives
 
 ## Acceptance Criteria
 
-In 1 or 2 sessions, the method should produce prioritized drivers, 3 to 7 architectural decisions, basic C4 views, an initial backlog, and risks. Each critical story must link to a driver or decision.
+In 1 or 2 sessions, SAM should produce prioritized drivers, 3 to 7 architectural decisions, basic C4 views, an initial backlog, and risks. Each critical story must link to a driver or decision.
 
 ## Base Sources
 
