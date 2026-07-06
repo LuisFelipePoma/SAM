@@ -1,0 +1,53 @@
+# Architecture Documentation Template
+
+## 1. Introduction
+
+## 2. Context Diagram
+
+## 3. Architectural Drivers
+
+Link each driver to its source requirement, quality attribute scenario, constraint, or concern.
+
+## 4. Quality Attribute Scenarios
+
+Use this format before ADD: source of stimulus, stimulus, artifact, environment, response, and response measure.
+
+| ID | Attribute | Source | Stimulus | Artifact | Environment | Response | Measure |
+| -- | --------- | ------ | -------- | -------- | ----------- | -------- | ------- |
+|    |           |        |          |          |             |          |         |
+
+## 5. Domain Model
+
+## 6. Container Diagram
+
+## 7. Component Diagrams
+
+## 8. Sequence Diagrams
+
+## 9. Event Definitions
+
+## 10. Architectural Decisions
+
+| ID | Driver | Decision | Rationale | Discarded alternatives | Consequences |
+| -- | ------ | -------- | --------- | ---------------------- | ------------ |
+|    |        |          |           |                        |              |
+
+## 11. Interfaces
+
+## 12. Scrum Handoff
+
+| Epic/Story | Driver or decision | Acceptance criteria | Architecture check |
+| ---------- | ------------------ | ------------------- | ------------------ |
+|            |                    |                     |                    |
+
+## 13. Traceability Matrix
+
+| Requirement | Scenario | Driver | Decision | View/diagram | Epic/Story | Check |
+| ----------- | -------- | ------ | -------- | ------------ | ---------- | ----- |
+|             |          |        |          |              |            |       |
+
+## 14. Governance Checks
+
+- Critical stories link to at least one driver or architectural decision.
+- New code does not contradict accepted architectural decisions.
+- Architecture checks are updated when a driver moves to Satisfied.
