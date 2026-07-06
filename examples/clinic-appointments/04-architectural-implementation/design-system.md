@@ -1,0 +1,93 @@
+# Clinic Appointments - Design System
+
+## 1. Product / UI Principles
+
+- Operational UI for patients and clinic staff.
+- Booking and schedule state must be immediately visible.
+- Keep flows short: search, select, confirm.
+- Staff views optimize for scanning daily schedules.
+
+## 2. Design Tokens
+
+| Token | Value | Usage |
+| --- | --- | --- |
+| `space-1` | 4px | Compact labels. |
+| `space-2` | 8px | Default gap. |
+| `space-3` | 12px | Form fields. |
+| `space-4` | 16px | Sections. |
+| `radius-sm` | 4px | Inputs/buttons. |
+| `radius-md` | 8px | Panels/cards max radius. |
+
+## 3. Color Palette
+
+| Role | Value | Usage |
+| --- | --- | --- |
+| Primary | `#256D6A` | Main actions and selected slots. |
+| Surface | `#F6F8F9` | App background. |
+| Panel | `#FFFFFF` | Forms, calendar panels. |
+| Border | `#D7DEE2` | Field and schedule borders. |
+| Success | `#1D7A46` | Confirmed appointment. |
+| Warning | `#B7791F` | Pending notification or schedule conflict warning. |
+| Danger | `#B42318` | Cancelled/error states. |
+
+## 4. Typography
+
+| Role | Size | Weight | Usage |
+| --- | --- | --- | --- |
+| Page title | 24px | 600 | Page header. |
+| Section title | 18px | 600 | Schedule/form sections. |
+| Body | 14px | 400 | Forms/lists. |
+| Caption | 12px | 400 | Slot metadata. |
+
+## 5. Spacing / Radius / Elevation
+
+- Use compact spacing for schedules.
+- Appointment cards use max 8px radius.
+- Prefer bordered panels over heavy shadows.
+
+## 6. Component Rules
+
+- Buttons: primary for confirm/book; secondary for reschedule/cancel.
+- Inputs: labels always visible; date/time controls use native inputs when acceptable.
+- Calendar slots: show available, selected, booked, cancelled and blocked states.
+- Staff schedule rows show doctor, time, patient and appointment status.
+
+## 7. Form Patterns
+
+- Booking forms require patient, doctor, clinic, date and slot.
+- Confirm screen shows selected slot before submit.
+- Duplicate slot errors must suggest refreshing availability.
+- Cancel/reschedule actions require confirmation.
+
+## 8. Table / List Patterns
+
+- Availability list supports date, clinic, specialty and doctor filters.
+- Doctor schedule supports day navigation.
+- Empty states distinguish no availability from failed search.
+- Row actions must be visible for staff workflows.
+
+## 9. Feedback States
+
+- Loading: skeleton slot rows.
+- Success: appointment confirmed with date/time.
+- Warning: notification pending.
+- Error: slot unavailable or provider failure.
+
+## 10. Accessibility Rules
+
+- Calendar/slot selection must be keyboard accessible.
+- Slot state cannot rely on color only.
+- Forms need explicit labels and error text.
+- Focus order follows booking flow.
+
+## 11. Responsive Behavior
+
+- Desktop: calendar/list and detail panel side by side.
+- Tablet: filters collapse above results.
+- Mobile: single-column search, slot selection and confirmation.
+
+## 12. Icon / Library Policy
+
+- Use existing icon set if present.
+- Do not add component libraries without approval.
+- Prefer standard icons for calendar, clock, user, location, confirm, cancel and warning.

@@ -1,0 +1,35 @@
+# Phase 4 Input - Architectural Implementation
+
+## Source
+
+- `examples/hotel-pricing/03-architectural-documentation/architecture-document.md`
+- `examples/hotel-pricing/02-architectural-design/design-decisions.md`
+
+## Stack And Library Constraints
+
+| Area | Choice | Constraint |
+| --- | --- | --- |
+| Frontend | Angular | Keep UI browser-based and permission-aware. |
+| Backend | Java API | Preserve explicit domain/module boundaries. |
+| Database | Relational pricing database | Must support transactional price/outbox writes. |
+| Messaging | Message broker | CMS publication must be asynchronous. |
+| Identity | Managed identity service | Do not create custom identity store. |
+| Observability | Metrics/logging/tracing | Publication and query flows must emit metrics. |
+
+## Inputs To Preserve
+
+- ADR-001 through ADR-006.
+- Traceability matrix.
+- Scrum handoff stories.
+- Governance checks.
+- REST interfaces and `PriceChanged` event.
+
+## Output Expected
+
+- `implementation-plan.md`.
+- `design-system.md`.
+- Code-agent-ready slices with acceptance criteria and minimum tests.
+
+## Approval Gate
+
+Tech lead confirms each slice keeps ADRs intact and has minimum tests before sending it to a code agent.

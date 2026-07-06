@@ -2,11 +2,12 @@
 
 Framework ligero para estandarizar arquitectura de software en proyectos Web/API empresariales con tiempos ajustados.
 
-El metodo sigue las 3 fases del diagrama:
+El metodo sigue 4 fases: requisitos, diseno, documentacion e implementacion arquitectonica para preparar el trabajo del agente de codigo/equipo.
 
 1. [Architectural Requirements](method/01-architectural-requirements/README.md)
 2. [Architectural Design](method/02-architectural-design/README.md)
 3. [Architectural Documentation](method/03-architectural-documentation/README.md)
+4. [Architectural Implementation](method/04-architectural-implementation/README.md)
 
 La entrada completa del metodo esta en [method/README.md](method/README.md).
 
@@ -20,11 +21,12 @@ El agente es copiloto aprobado: prepara artefactos, preguntas, alternativas, dia
 
 | Ruta | Uso |
 | --- | --- |
-| `method/` | Framework en 3 fases. |
+| `method/` | Framework en 4 fases. |
 | `method/project-brief-template.md` | Input inicial que entrega cliente/equipo. |
 | `method/01-architectural-requirements/` | Atributos de calidad, ASR, QAW-lite, utility tree y lista priorizada. |
 | `method/02-architectural-design/` | ADD y seleccion de patrones, tacticas, tecnologias y arquitecturas. |
 | `method/03-architectural-documentation/` | C4, BD, 4+1, clases, ADRs, interfaces, eventos y trazabilidad. |
+| `method/04-architectural-implementation/` | Slices de implementacion, stack, librerias, tests y design system. |
 | `examples/hotel-pricing/` | Ejemplo AD&D Hotels separado del framework. |
 | `examples/clinic-appointments/` | Segundo ejemplo para validar el metodo con otro dominio. |
 

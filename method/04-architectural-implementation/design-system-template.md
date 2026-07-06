@@ -1,0 +1,88 @@
+# Design System Template
+
+Use this file only when the project has a frontend.
+
+## 1. Product / UI Principles
+
+- 
+
+## 2. Design Tokens
+
+| Token | Value | Usage |
+| --- | --- | --- |
+|  |  |  |
+
+## 3. Color Palette
+
+| Role | Value | Usage |
+| --- | --- | --- |
+| Primary |  |  |
+| Surface |  |  |
+| Border |  |  |
+| Success |  |  |
+| Warning |  |  |
+| Danger |  |  |
+
+## 4. Typography
+
+| Role | Size | Weight | Usage |
+| --- | --- | --- | --- |
+| Page title |  |  |  |
+| Section title |  |  |  |
+| Body |  |  |  |
+| Caption |  |  |  |
+
+## 5. Spacing / Radius / Elevation
+
+- Spacing scale:
+- Radius:
+- Elevation:
+
+## 6. Component Rules
+
+- Buttons:
+- Inputs:
+- Cards/panels:
+- Navigation:
+- Modals/drawers:
+
+## 7. Form Patterns
+
+- Validation:
+- Required fields:
+- Error messages:
+- Save/cancel behavior:
+
+## 8. Table / List Patterns
+
+- Filters:
+- Sorting:
+- Pagination:
+- Empty states:
+- Row actions:
+
+## 9. Feedback States
+
+- Loading:
+- Success:
+- Warning:
+- Error:
+
+## 10. Accessibility Rules
+
+- Keyboard:
+- Contrast:
+- Labels:
+- Focus:
+
+## 11. Responsive Behavior
+
+- Desktop:
+- Tablet:
+- Mobile:
+
+## 12. Icon / Library Policy
+
+- Icon library:
+- Component library:
+- New dependency rule:

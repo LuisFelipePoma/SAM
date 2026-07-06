@@ -31,6 +31,8 @@ Objetivo: dejar evidencia suficiente para construir, revisar y mantener la arqui
 
 Cada story critica debe enlazar a un driver o decision. Las decisiones deben tener vista/diagrama y check asociado.
 
+La salida aprobada de esta fase alimenta Architectural Implementation.
+
 ## Rol Del Agente IA
 
 El agente mantiene consistencia entre documentos, genera diagramas, detecta decisiones sin trazabilidad y revisa deriva arquitectura-codigo. El arquitecto valida la version final.

@@ -1,0 +1,93 @@
+# Hotel Pricing System - Design System
+
+## 1. Product / UI Principles
+
+- Dense, operational UI for repeated pricing work.
+- Prioritize tables, filters, comparison and status visibility.
+- Avoid marketing-style hero sections or decorative layouts.
+- Every price action must show authorization, publication and validation state.
+
+## 2. Design Tokens
+
+| Token | Value | Usage |
+| --- | --- | --- |
+| `space-1` | 4px | Tight table/form spacing. |
+| `space-2` | 8px | Default gap. |
+| `space-3` | 12px | Form groups. |
+| `space-4` | 16px | Page sections. |
+| `radius-sm` | 4px | Inputs, buttons, chips. |
+| `radius-md` | 8px | Panels/cards max radius. |
+
+## 3. Color Palette
+
+| Role | Value | Usage |
+| --- | --- | --- |
+| Primary | `#1F5A96` | Primary actions, active nav. |
+| Surface | `#F7F9FC` | App background. |
+| Panel | `#FFFFFF` | Tables/forms. |
+| Border | `#D8DEE8` | Table and field borders. |
+| Success | `#1E7A4D` | Published/confirmed states. |
+| Warning | `#B7791F` | Pending publication/warnings. |
+| Danger | `#B42318` | Failed publication/errors. |
+
+## 4. Typography
+
+| Role | Size | Weight | Usage |
+| --- | --- | --- | --- |
+| Page title | 24px | 600 | Page header. |
+| Section title | 18px | 600 | Panels. |
+| Body | 14px | 400 | Forms/tables. |
+| Caption | 12px | 400 | Metadata/status. |
+
+## 5. Spacing / Radius / Elevation
+
+- Use compact spacing for tables and filters.
+- Cards/panels use max 8px radius.
+- Prefer flat surfaces with borders over heavy shadows.
+
+## 6. Component Rules
+
+- Buttons: primary for save/apply; secondary for simulate/cancel; destructive for rollback/delete.
+- Inputs: labels always visible; numeric price inputs right-aligned.
+- Navigation: left or top app navigation with role-aware menu items.
+- Status chips: `Draft`, `Simulated`, `Publishing`, `Published`, `Failed`.
+
+## 7. Form Patterns
+
+- Price-change forms require hotel, date, rate and value.
+- Show validation before submit.
+- Simulate before apply when available.
+- Save actions show publication result or pending state.
+
+## 8. Table / List Patterns
+
+- Default tables support filter, sort and pagination.
+- Price tables freeze key columns when wide.
+- Row actions use icons with accessible labels.
+- Empty states explain missing data and next action.
+
+## 9. Feedback States
+
+- Loading: skeleton rows for tables.
+- Success: published status with timestamp.
+- Warning: pending publication/outbox retry.
+- Error: failed publication with retry details.
+
+## 10. Accessibility Rules
+
+- All controls must be keyboard reachable.
+- Inputs need visible labels and error text.
+- Status cannot rely on color only.
+- Focus states must be visible.
+
+## 11. Responsive Behavior
+
+- Desktop: dense tables and side-by-side filters.
+- Tablet: collapse secondary filters.
+- Mobile: prioritize search/filter and detail views over wide tables.
+
+## 12. Icon / Library Policy
+
+- Use the existing UI framework icon set if present.
+- Do not add icon or component libraries without approval.
+- Prefer standard icons for edit, save, publish, retry, warning and error.
