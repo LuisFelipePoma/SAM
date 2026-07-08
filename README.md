@@ -17,6 +17,33 @@ Every project starts with a `project-brief.md`; use [method/project-brief-templa
 
 The agent is an approved copilot: it prepares artifacts, questions, alternatives, diagrams, ADRs, and the initial backlog. The architect sets priorities, accepts tradeoffs, and approves decisions.
 
+## Codex Plugin
+
+SAM includes a Codex plugin under `plugins/sam/`.
+
+Install it from this repository:
+
+```powershell
+git clone https://github.com/LuisFelipePoma/SAM.git
+cd SAM
+codex plugin marketplace add .\.agents\plugins
+codex plugin add sam@local-repository
+```
+
+Open a new Codex thread after installing so the plugin is loaded.
+
+Use the workflow commands:
+
+```text
+@sam init NAME="Project Name"
+@sam status
+@sam next
+@sam approve GATE="phase-1-drivers"
+@sam slice 1
+```
+
+The plugin writes project artifacts under `docs/arquitecture/` and keeps approval gates in `docs/arquitecture/.sam/state.json`.
+
 ## Structure
 
 | Path | Use |
